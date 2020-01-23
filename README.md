@@ -1,4 +1,4 @@
 # practice101
-mykindofworkshop
-I AM 1337!
+mykindofworkshop\n
+I AM 1337!\n
 This is my WorkStation.
