@@ -1,7 +1,8 @@
 #include<iostream>
 #include<iomanip>
 using namespace std;
-int main(){
+int main()
+{
     double x,sum=0;
     for(int i = 2;i <= 222;i+=2)
     {
