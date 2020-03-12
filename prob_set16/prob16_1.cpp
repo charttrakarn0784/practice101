@@ -2,8 +2,8 @@
 #include<iomanip>
 using namespace std;
 
-void freeSpace(int **,int);
-void myMatrix (int ***, int);
+void myMatrix(int ***,int );
+void freeSpace(int **,int );
 
 int main()
 {
@@ -12,12 +12,12 @@ int main()
 
     cout << "N = ";
     cin >> N;
-
+	
     myMatrix(&p,N);
 
-	for(int i=0;i < N; i++){
+	for(int i=0;i<N;i++){
         for(int j=0;j<N;j++){
-            cout << setw(4) << p[i][j] ;
+            cout << setw(4) << &p[i][j] ;
         }
         cout << "\n";
     }
@@ -26,27 +26,20 @@ int main()
 
     return 0;
 }
-void myMatrix(int ***p,int N)
+
+void myMatrix(int ***pPtr,int N)
 {
-	int **k = *p;
-	k = new int *[N]; //p = ***p,*p = **p ,**p = *p
-    for(int i=0;i<N;i++) k[i] = new int [N];
-    
-	for(int i=0;i < N; i++){
-        for(int j=0;j < N;j++){
-            k[i][j] = i+j;
-            //cout << k[i][j] << " ";
-        }
-        //cout << "\n";
-    }
-    
-	/*for(int i=0;i < N; i++){
-        for(int j=0;j < N;j++){
-            cout << &p[i][j] << "--" ;
-        }
-        cout << "\n";
-    }*/
-}
+	int **p = &(**pPtr);
+	p = new int *[N];
+	for(int i=0;i<N;i++) p[i] = new int [N];
+	
+	p = 0;
+	for(int i=0;i<N;i++){
+		for(int j=0;j<N;j++){
+			p[i][j] = i+j;
+		}
+	}
+} 
 void freeSpace(int **p,int N)
 {
     for(int i=0;i<N;i++) delete [] p[i];
