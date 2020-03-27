@@ -4,13 +4,15 @@ Hi! I'm 1337! This is my WorkStation.
 
 //VScode Extensions//
 
--Better Comments ver2.0.5 by Aaron Bond
+-Better Comments by Aaron Bond
 
--Bracket Pair Colorizer 2 ver0.0.29 by CoenraadS
+-Bracket Pair Colorizer 2 9 by CoenraadS
 
--Code Runner ver0.9.15 by Juan Han
+-Code Runner  by Juan Han
 
--C/C++ ver 0.26.3 by Microsoft 
+-C/C++ by Microsoft 
 
--Material Icon Theme ver3.9.2 by Phillipp Kief
+-Material Icon Theme by Phillipp Kief
+
+WHO THE FUCK LURE ME TO COMPUTER ENGINEER?
 
