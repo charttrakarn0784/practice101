@@ -14,5 +14,5 @@ Hi! I'm 1337! This is my WorkStation.
 
 -Material Icon Theme by Phillipp Kief
 
-WHO THE FUCK LURE ME TO COMPUTER ENGINEER?
+WHO THE FUCK FOOL ME TO COMPUTER ENGINEER?
 
